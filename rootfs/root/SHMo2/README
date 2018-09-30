@@ -1,0 +1,41 @@
+SHMO -- Simple Huckel Molecular Orbital Theory Calculator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Introduction
+~~~~~~~~~~~~
+
+I see that you have already unzipped the README file 
+successfully. The SHMo2.zip file should contain 3 files:
+
+README     - what you are reading right now
+SHMo2.jar  - the Java ARchive of SHMO
+SHMo2.html - the html file to execute SHMO
+
+Installation
+~~~~~~~~~~~~
+
+First install the Java Development Kit (JDK) properly on 
+your system. The JDK is available freely through JavaSoft 
+at http://www.javasoft.com . 
+
+Next run "appletviewer" (comes with the JDK) in the 
+directory including SHMo2.html and SHMo2.jar, with the
+argument "SHMo2.html". to be exact excute 
+"appletviewer SHMo2.html" in the directory including 
+SHMo2.html and SHMo2.jar.
+
+Bugs and Questions
+~~~~~~~~~~~~~~~~~~
+
+Bugs and questions can be directed to Dr. Arvi Rauk 
+<rauk@chem.ucalgary.ca> and Richard Cannings
+<cannings@cpsc.ucalgary.ca>.
+
+
+
+
+
+
+Thanks for looking into SHMO,
+
+rich (98/11/14)
