@@ -1,5 +1,4 @@
 FROM ubuntu:14.04
-# FROM ubuntu:trusty
 
 LABEL maintainer="Adam Fekete <adam.fekete@kcl.ac.uk>"
 
@@ -48,4 +47,4 @@ CMD ["/root/startapp.sh"]
 # Expose ports.
 #   - 5800: VNC web interface
 #   - 5900: VNC
-EXPOSE 5800 5900
+EXPOSE 5800
