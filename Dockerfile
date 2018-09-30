@@ -40,7 +40,7 @@ COPY rootfs/ /
 ENV APP_NAME="Firefox" \
     DISPLAY=:1 \
     DISPLAY_WIDTH=1280  \
-    DISPLAY_HEIGHT=1024
+    DISPLAY_HEIGHT=768
 
 RUN chmod 0755 /root/startapp.sh
 CMD ["/root/startapp.sh"]

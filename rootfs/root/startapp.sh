@@ -3,7 +3,7 @@
 Xvfb $DISPLAY -screen 0 ${DISPLAY_WIDTH}x${DISPLAY_HEIGHT}x24 &
 sleep 5
 openbox-session &
-x11vnc -display :1 -nopw -listen localhost -xkb -ncache 10 -ncache_cr -forever &
+x11vnc -display :1 -nopw -listen localhost -xkb -forever &
 
 ln -s /usr/share/novnc/vnc_auto.html /usr/share/novnc/index.html
 websockify -D --web=/usr/share/novnc/ 5800 localhost:5900
