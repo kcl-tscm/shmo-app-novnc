@@ -1,7 +1,10 @@
 shmo-app-novnc
 ==============
 
-This is a minimal image which will help you run X server with openbox on the docker container and access it from ANY recent browser without requiring you to do any configuration on the client side.
+This is a minimalistic docker image which will help you run Interactive SHMO Java applet on the docker container and access it from ANY recent browser without requiring you to do any configuration on the client side.
+
+## Requirements
+- Docker: https://www.docker.com/get-started
 
 ## How to use
 ```
